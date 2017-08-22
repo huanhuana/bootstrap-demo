@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p {
+    margin: 0 0 10px;
+}
+.masthead {
+    padding: 90px 0 110px;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(45deg,#020031 0,#6d3353 100%);
+}
+.jumbotron:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://static.bootcss.com/www/assets/img/bs-docs-masthead-pattern.png) repeat center center;
+    opacity: .4;
+}
+.masthead h2 {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.25;
+}
+@media screen and (min-width: 768px){	
+	.masthead h2 {
+	    font-size: 24px;
+	}
+}
+@media screen and (min-width: 992px){
+	.masthead h2 {
+	    font-size: 30px;
+	}
+}
+.masthead p {
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.25;
+}
+.masthead .masthead-button-links {
+    margin-top: 30px;
+}
+.btn-lg.btn-shadow {
+    padding: 13px 35px 17px;
+}
+.masthead-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bc-social {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+}
+.bc-social-buttons li {
+    display: inline-block;
+    line-height: 1;
+    color: #555;
+}
+.bc-social-buttons li {
+    display: inline-block;
+    line-height: 1;
+    color: #555;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.bc-social-buttons li .fa {
+    font-size: 18px;
+    margin-right: 3px;
+}
+.fa-qq:before {
+    content: "\f1d6";
+}
+.bc-social-buttons>li+li:before {
+    padding: 0 10px;
+    color: #ccc;
+    content: "|";
+}
+.projects-header {
+    width: 60%;
+    text-align: center;
+    margin: 60px 0 10px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects-header h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+@media screen and (min-width: 768px){
+	.projects-header h2 {
+	    font-size: 42px;
+	}
+}
+#scrollUp {
+    background-color: #777;
+    color: #eee;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+    border: none;
+    opacity: .8;
+}
+@media screen and (min-width: 992px){
+	#scrollUp {
+	    bottom: 100px;
+	}
+}
